@@ -20,7 +20,7 @@ public class ChromeBrowser
 	driver.get("https://www.amazon.in/deals?ref_=nav_cs_gb");
 	
 	driver.manage().window().maximize();
-	
+	driver.manage().window().minimize();
 	  
 
 	// Find all elements with the class 's-result-item'
